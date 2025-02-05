@@ -17,14 +17,10 @@ import androidx.compose.ui.unit.sp
 @Preview(showBackground = true, showSystemUi = true)
 @Composable
 fun Test(){
-
-
-
-
     CenterAlignedTopAppBar(
         title = {
             Text(
-                text = "My App",
+                text = "Hello World",
                 style = MaterialTheme.typography.titleLarge.copy(fontSize = 28.sp)
             )
         },
