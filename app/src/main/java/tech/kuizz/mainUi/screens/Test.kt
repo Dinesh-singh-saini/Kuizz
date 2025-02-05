@@ -17,10 +17,6 @@ import androidx.compose.ui.unit.sp
 @Preview(showBackground = true, showSystemUi = true)
 @Composable
 fun Test(){
-
-
-
-
     CenterAlignedTopAppBar(
         title = {
             Text(
